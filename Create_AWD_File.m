@@ -2,11 +2,10 @@ close all
 clear
 
 %Filename of raw data (to be imported with ImportBehavLogger)
-fn_rawdata = 'Z:\Ed\cacna1c Batch3\Activity Monitor\Actigraphy_24_02_20.txt';
-addpath('D:\Ed\Scripts\Load Data'); %Path where ImportBehavLogger_Edit is found
+fn_rawdata = '';
 
 %Save Directory for AWD file
-save_dir = 'D:\Ed\Data\Matlab Outputs\Actigraphy\Batch1\AWD\Reverse Lighting';
+save_dir = '';
 
 %Parameters
 
