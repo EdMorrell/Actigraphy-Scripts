@@ -2,9 +2,9 @@ close all
 clear
 
 %Filename of raw data (to be imported with ImportBehavLogger - v. slow)
-fn_rawdata = 'Z:\Ed\cacna1c Batch3\Activity Monitor\Actigraphy_23_09_19.txt';
+fn_rawdata = '';
 
-addpath('D:\Ed\Scripts\Load Data'); %Path where ImportBehavLogger is located
+addpath(''); %Path where ImportBehavLogger is located
 
 %Parameters
 normal_lighting = false; %ie - lights on: 8:15am, lights off: 8:15pm
